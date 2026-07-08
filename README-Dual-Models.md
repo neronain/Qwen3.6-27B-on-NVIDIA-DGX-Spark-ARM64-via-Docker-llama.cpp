@@ -136,7 +136,10 @@ services:
 สั่งรันระบบ (การ Build จะเกิดขึ้นเพียงครั้งเดียว และใช้ Image ร่วมกันทั้ง 2 คอนเทนเนอร์)
 
 ```bash
+
+docker compose build --no-cache
 docker compose up -d --build
+docker compose up -d
 
 ```
 
